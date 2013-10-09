@@ -1,0 +1,41 @@
+Spectroscopy training
+Dave Borncamp 
+10/07/13
+
+
+Exercise 1:
+ No problem getting the data.
+
+
+Exercise 2:
+ The differences in the STIS and COS files are that STIS is that COS is an 
+'event counter' where as STIS is a normal spectrograph that only gives totals.
+ The 2 COS files have different dimensions for events because there were more 
+events in one wavelength range than the other.  
+
+
+Exercise 3:
+ No problems making calibrations. Very easy pipeline to run. Things stayed the 
+same.
+
+
+Exercise 4:
+ They seem to be very close. Maybe a little more noise without the flat 
+fielding. It is not identical to the flat corrected spectra. 
+
+
+Exercise 5:
+ A smoothing of (2,2) seems to calm it down a lot but the peaks have lost about
+half of their value in the process. 
+
+
+Exercise 6:
+ COS seems to have better signal to noise on this object with better spectral 
+resolution.
+Signal to noise for COS:
+   20.343151022
+Signal to noise for STIS:
+   12.1285375682
+
+Exercise 7:
+see my code for the plot. Interesting plot.
